@@ -1,0 +1,76 @@
+<html>
+    <head><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css">
+        
+        <!-- google font-->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Smythe&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="index.css">
+       
+        
+    </head>
+    <body>
+        
+        <div class="container">
+        <header class="banner">
+            <h1 class="banner-header">Stanley's Dinner</h1>
+            <p class="banner-paragraph">The best burger's and pizzas in town</p>  
+        </header>
+        <main>
+        <div id="menu-feed">
+        </div>
+        
+         <div class="choose-menu" id="choose-menu"><h3>Please choose a menu</h3></div>
+         
+        <div id="order-header" class="my-order">
+            <h3>My Order</h3> 
+            
+        <div id='ordering-feed'> </div>
+        
+      
+            <p class="border"></p>
+           <div class="total-price">
+               <p>Total Price</p>
+               <p id="total-amount"></p>
+           </div>
+            
+           <div id="completeorder-btn" class="completeorder-btn"><p>Complete Order</p></div>
+           </div>
+           
+           <div id="customers-card" class="customers-detail">
+              
+            <form id="form-details">
+                <label>Enter Card Details</label>
+               <input 
+               type="text"
+               id="yourname"
+               name="yourname"
+               placeholder="Enter Your Name"
+               required
+               >
+               <input
+                type="number"
+               id="yourcardnumber"
+               name="yourcard"
+               placeholder="Enter Your Card Number"
+               required
+               >
+               <input
+                type="number"
+               id="yourcvv"
+               name="yourcvv"
+               placeholder="Enter CVV"
+               required
+               >
+               <button type = 'submit' class="pay-btn" id="pay-btn">Pay</button>
+           </form>   
+           </div>
+           <div id="thankyou-text" class="thankyou-text"></div>
+            
+             
+    <script src="index.js"type="module" ></script>
+        </main>
+        </div>
+         
+    </body>
+</html>

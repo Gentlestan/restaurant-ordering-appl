@@ -1,0 +1,240 @@
+body {
+    margin: 0;
+     
+    
+    
+}
+
+.container{
+     margin: 0 auto;
+     width: 600px;
+     background: #F5F5F5;
+    font-family: 'Smythe', cursive;
+    
+}
+.banner{
+    background-image: url("photo-burger.avif");
+    background-size: cover;
+    height: 400px;
+    color: white;
+    
+  
+    
+}
+.banner-header{
+    margin-bottom: 0px;
+    padding-top: 280px;
+    padding-left: 50px;
+    
+}
+.banner-paragraph{
+    margin-top: 0px;
+    padding-left: 50px;
+}
+
+
+.menu{
+    display: flex;
+}
+.itemsid{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 50px;
+    padding-bottom: 40px;
+     border-bottom: 1px solid black;
+     width: 490px;
+     
+    
+    
+}
+.items{
+    margin-left: 15px;
+    margin-top: 30px;
+    font-family: 'Smythe', cursive;
+    font-weight: 400px;
+
+}
+
+.name{
+    margin-bottom: 10px;
+    font-size: 28px;
+    line-height: 16.8px; 
+}
+
+.ingredients{
+ 
+   margin-bottom: 10px;
+   margin-top: 0px;
+   font-size: 16px;
+   line-height: 24px;
+    
+    
+}
+
+.emoji{
+   font-size: 400%;
+   margin-bottom: 20px;
+   margin-top: 40px;
+}
+.price{
+  
+    margin-bottom: 4px;
+    margin-top: 0px;
+     font-size: 28px;
+   line-height: 16px;
+   
+}
+
+
+.btn{
+     
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+    margin-top: 50px;
+    margin-right: px;
+    
+     
+   
+}
+
+.order-flex{
+    display: flex;
+    justify-content: space-between;
+    margin-right: 60px;
+    margin-left: 60px;
+    
+    
+}
+
+
+.my-order{
+    display: none;
+    text-align: center;
+    margin-top: 20px;
+    background-color: brown;
+    font-size: 24px;
+    
+     
+}
+.remove-btn{
+    margin-left: 5px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 400px;
+    font-size: 12px;
+    
+    
+}
+.choose-menu{
+    display:none;
+    text-align: center;  
+}
+.choose, h3{
+    padding-bottom: 20px;
+    font-size: 32px;
+}
+.menu-name
+ {
+    font-weight: 400px;
+    font-size: 28px;
+    line-height: 16.8px;
+}
+.menu-price{
+    font-weight: 400px;
+    font-size: 24px;
+}
+
+
+.total-price{
+    display: flex;
+    justify-content: space-between;
+    /*border-top: 1px solid brown;*/
+    padding-left: 60px;
+    padding-right: 60px;
+     font-weight: 400px;
+    font-size: 25px;
+    
+ }
+ .border{
+     border-top: 1px solid brown;
+     margin-left: 60px;
+     margin-right: 60px
+ }
+.completeorder-btn{
+    margin: 10px 60px;
+    padding: 2px 0.5px;
+    background-color: brown;
+    color: white;
+    
+}
+.customers-detail{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 20px;
+    border: 1px solid blue;
+    width: 450px;
+    height: 320px;
+    background: white;
+    display: none;
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right:0;
+    margin: auto;
+   
+}
+
+label{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 24px;
+    font-weight: 700px; 
+}
+
+
+form{
+    
+    display:flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+     
+
+     
+}
+
+input{
+    margin: 8px 10px;
+    padding: 10px 130px 10px 4px;
+
+}
+.pay-btn{
+     margin-top: 30px;
+    padding: 10px 150px;
+    background-color: brown;
+    color: white;
+    
+    
+}
+
+.thankyou-text{
+    display: none;
+    text-align: center;
+    font-size: 32px;
+     
+}
+
+span{
+    color: palegreen;
+}
+
+.purchase{
+    margin: 10px 40px;
+    padding: 10px 1px;
+    background: brown;
+    color: white
+}
+
+
+
+
+
